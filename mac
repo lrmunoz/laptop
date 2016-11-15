@@ -96,42 +96,69 @@ fi
 fancy_echo "Updating Homebrew formulae ..."
 brew update
 brew bundle --file=- <<EOF
-tap "thoughtbot/formulae"
+brew "mas"
 tap "homebrew/services"
+tap "caskroom/cask"
+tap "caskroom/fonts"
 
 # Unix
-brew "ctags"
 brew "git"
 brew "openssl"
-brew "rcm"
-brew "reattach-to-user-namespace"
-brew "the_silver_searcher"
-brew "tmux"
 brew "vim"
 brew "zsh"
-
-# Heroku
-brew "heroku-toolbelt"
-brew "parity"
-
-# GitHub
-brew "hub"
 
 # Image manipulation
 brew "imagemagick"
 
 # Testing
-brew "qt"
+# brew "qt"
+brew "phantomjs"
 
 # Programming languages
-brew "libyaml" # should come after openssl
 brew "node"
+brew "npm"
 brew "rbenv"
 brew "ruby-build"
 
-# Databases
-brew "postgres", restart_service: true
-brew "redis", restart_service: true
+# Messaging
+cask "telegram"
+cask "whatsapp"
+cask "slack"
+
+# Browsers
+cask "google-chrome"
+cask "firefox"
+
+# Programming tools
+cask "sublime-text"
+cask "intellij-idea"
+mas "Xcode", id: 497799835
+cask "sourcetree"
+cask "docker"
+cask "kitematic"
+brew "ansible"
+cask "postgres"
+
+# Cloud data
+mas "OneDrive", id: 823766827
+brew "syncthing"
+
+# Utilities
+cask "spectacle"
+cask "rescuetime"
+cask "keepassx"
+mas "Nag", id: 412155298
+mas "Microsoft OneNote", id: 784801555
+cask "omnifocus"
+cask "gpgtools"
+cask "iterm2"
+
+# Apps
+cask "spotify"
+cask "steam"
+
+# Fonts
+cask "font-open-sans"
 EOF
 
 fancy_echo "Configuring Ruby ..."
