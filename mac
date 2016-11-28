@@ -117,6 +117,7 @@ brew "phantomjs"
 # Programming languages
 brew "node"
 brew "npm"
+brew "yarn"
 brew "rbenv"
 brew "ruby-build"
 
