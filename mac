@@ -158,6 +158,7 @@ cask "sketch"
 # Apps
 cask "spotify"
 cask "steam"
+cask "microsoft-office"
 
 # Fonts
 cask "font-open-sans"
