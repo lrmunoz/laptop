@@ -164,6 +164,7 @@ cask "microsoft-office"
 cask "font-open-sans"
 cask "font-meslo-lg-for-powerline"
 cask "font-source-sans-pro"
+cask "font-fontawesome"
 EOF
 
 fancy_echo "Configuring Ruby ..."
