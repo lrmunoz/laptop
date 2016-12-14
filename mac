@@ -125,6 +125,7 @@ brew "ruby-build"
 cask "telegram"
 cask "whatsapp"
 cask "slack"
+cask "skype"
 
 # Browsers
 cask "google-chrome"
