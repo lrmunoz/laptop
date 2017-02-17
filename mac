@@ -155,6 +155,7 @@ cask "omnifocus"
 cask "gpgtools"
 cask "iterm2"
 cask "sketch"
+cask "cyberduck"
 
 # Apps
 cask "spotify"
