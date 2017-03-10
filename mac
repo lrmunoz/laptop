@@ -161,6 +161,7 @@ cask "cyberduck"
 cask "spotify"
 cask "steam"
 cask "microsoft-office"
+cask "vlc"
 
 # Fonts
 cask "font-open-sans"
