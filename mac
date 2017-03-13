@@ -156,6 +156,7 @@ cask "gpgtools"
 cask "iterm2"
 cask "sketch"
 cask "cyberduck"
+cask "vmware-fusion"
 
 # Apps
 cask "spotify"
