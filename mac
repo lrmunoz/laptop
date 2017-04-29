@@ -157,6 +157,7 @@ cask "iterm2"
 cask "sketch"
 cask "cyberduck"
 cask "vmware-fusion"
+cask "macdown"
 
 # Apps
 cask "spotify"
