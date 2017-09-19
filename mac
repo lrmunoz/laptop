@@ -140,6 +140,7 @@ cask "docker"
 cask "kitematic"
 brew "ansible"
 cask "postgres"
+brew "watchman"
 
 # Cloud data
 mas "OneDrive", id: 823766827
